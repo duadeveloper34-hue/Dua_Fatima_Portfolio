@@ -16,9 +16,9 @@ export default function Hero() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-              <span className="block">Crafting Digital</span>
-              <span className="block text-gradient">Experiences</span>
-              <span className="block">That Inspire</span>
+              <span className="block">Dua Fatima</span>
+              <span className="block text-gradient">Building Modern</span>
+              <span className="block">Web Experiences</span>
             </h1>
             
             <p className="text-lg text-text-muted mb-8 max-w-2xl">
@@ -89,10 +89,6 @@ export default function Hero() {
                       <div className="text-sm text-text-muted">Projects</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">35+</div>
-                      <div className="text-sm text-text-muted">Clients</div>
-                    </div>
-                    <div className="text-center">
                       <div className="text-2xl font-bold text-primary">5+</div>
                       <div className="text-sm text-text-muted">Years</div>
                     </div>
@@ -101,16 +97,17 @@ export default function Hero() {
               </div>
               
               {/* Floating Elements */}
-              <div className="absolute -top-4 -right-4 w-20 h-20 rounded-full bg-primary/10 border border-primary/30 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                <span className="text-xl font-bold text-primary">💻</span>
-              </div>
-              <div className="absolute -bottom-5 -left-5 w-16 h-16 rounded-full bg-accent/10 border border-accent/30 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                <span className="text-lg font-bold text-accent">✨</span>
-              </div>
+              // <div className="absolute -top-4 -right-4 w-20 h-20 rounded-full bg-primary/10 border border-primary/30 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+              //   <span className="text-xl font-bold text-primary">💻</span>
+              // </div>
+              // <div className="absolute -bottom-5 -left-5 w-16 h-16 rounded-full bg-accent/10 border border-accent/30 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+              //   <span className="text-lg font-bold text-accent">✨</span>
+              // </div>
             </div>
           </div>
         </div>
       </div>
     </section>
   );
+
 }
