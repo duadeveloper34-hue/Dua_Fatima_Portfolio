@@ -98,12 +98,12 @@ export default function Hero() {
               
               {/* Floating Elements */}
               // <div className="absolute -top-4 -right-4 w-20 h-20 rounded-full bg-primary/10 border border-primary/30 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-              //   <span className="text-xl font-bold text-primary">💻</span>
+              //   <span className="text-xl font-bold text-primary"></span>
               // </div>
               // <div className="absolute -bottom-5 -left-5 w-16 h-16 rounded-full bg-accent/10 border border-accent/30 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
               //   <span className="text-lg font-bold text-accent">✨</span>
               // </div>
-            </div>
+            // </div>
           </div>
         </div>
       </div>
@@ -111,3 +111,4 @@ export default function Hero() {
   );
 
 }
+
