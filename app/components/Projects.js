@@ -1,40 +1,6 @@
 // app/components/Projects.js
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-
-const projects = [
-  {
-    title: "E-commerce Platform",
-    description: "A modern e-commerce solution with real-time inventory and payment integration",
-    tags: ["Next.js", "Node.js", "MongoDB", "Stripe"],
-    imageColor: "from-primary to-yellow-600",
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Health & Fitness App",
-    description: "Mobile-first fitness tracking application with AI-powered recommendations",
-    tags: ["React Native", "Firebase", "TensorFlow.js", "GraphQL"],
-    imageColor: "from-purple-600 to-accent",
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Design System Library",
-    description: "Comprehensive component library for enterprise applications",
-    tags: ["React", "TypeScript", "Storybook", "Jest"],
-    imageColor: "from-blue-600 to-cyan-500",
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Real-time Dashboard",
-    description: "Analytics dashboard with live data visualization and reporting",
-    tags: ["Vue.js", "WebSocket", "D3.js", "Express"],
-    imageColor: "from-green-600 to-emerald-500",
-    github: "#",
-    live: "#",
-  },
-];
+import { projects } from "@/data"; 
 
 export default function Projects() {
   return (
@@ -50,16 +16,17 @@ export default function Projects() {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {projects.map((project, index) => (
+          {projects.map((project, index) => (  
             <div
               key={project.title}
               className="group glass-effect rounded-2xl p-6 hover:transform hover:-translate-y-2 transition-all duration-300"
             >
               <div className="mb-6">
-                <div className={`h-48 rounded-xl bg-linear-to-br ${project.imageColor} mb-4 relative overflow-hidden`}>
+                <div className={`h-52 rounded-xl bg-linear-to-br ${project.image} mb-4 relative  overflow-hidden`}>
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-4xl font-bold text-white opacity-30">
-                      {String(index + 1).padStart(2, '0')}
+                    <div className="text-4xl font-bold text-white ">
+                      { project.image && (<img src={project.image} alt={project.title} className="object-cover w-full h-54" />) }
+                      {/* {String(index + 1).padStart(2, '0')} */}
                     </div>
                   </div>
                 </div>
@@ -86,25 +53,25 @@ export default function Projects() {
               
               <div className="flex items-center justify-between pt-4 border-t border-border">
                 <div className="flex items-center space-x-4">
-                  <a
-                    href={project.github}
+                  <a target="_blank"
+                    href="https://github.com/duadeveloper34-hue/ecommerce.website"
                     className="flex items-center text-text-muted hover:text-primary transition-colors"
                     aria-label="GitHub repository"
                   >
                     <FiGithub className="w-5 h-5 mr-2" />
                     Code
                   </a>
-                  <a
-                    href={project.live}
+                  <a target="_blank" 
+                    href="https://ecommerce-website-oaaoxscj2-duafatimas-projects.vercel.app/"
                     className="flex items-center text-text-muted hover:text-primary transition-colors"
                     aria-label="Live demo"
                   >
-                    <FiExternalLink className="w-5 h-5 mr-2" />
+                    <FiExternalLink className="w-5 h-5 mr-2"  />
                     Live Demo
                   </a>
                 </div>
                 <span className="text-sm text-text-muted">
-                  {2024 - index}
+                  {2025 - index}
                 </span>
               </div>
             </div>
