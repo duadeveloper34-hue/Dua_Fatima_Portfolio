@@ -52,7 +52,7 @@ export default function Navbar() {
             {/* Social Icons - Desktop */}
             <div className="hidden md:flex items-center space-x-3">
               <a
-                href="https://github.com"
+                href="https://github.com/duadeveloper34-hue"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg hover:bg-surface transition-colors duration-200"
@@ -61,7 +61,7 @@ export default function Navbar() {
                 <FiGithub className="w-5 h-5 text-text-muted hover:text-primary" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/dua-fatima-854114368/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg hover:bg-surface transition-colors duration-200"
@@ -71,7 +71,7 @@ export default function Navbar() {
               </a>
             </div>
 
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
 
             {/* Mobile Menu Button */}
             <button
@@ -108,7 +108,7 @@ export default function Navbar() {
               ))}
               <div className="flex items-center space-x-4 pt-4 px-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/duadeveloper34-hue"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg hover:bg-surface transition-colors duration-200"
@@ -117,7 +117,7 @@ export default function Navbar() {
                   <FiGithub className="w-5 h-5 text-text" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/dua-fatima-854114368/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-lg hover:bg-surface transition-colors duration-200"
