@@ -19,19 +19,19 @@ export default function Contact() {
     {
       icon: <FiMail className="w-6 h-6" />,
       title: "Email",
-      info: "hello@portfolio.dev",
-      link: "mailto:hello@portfolio.dev",
+      info: "duaf3292@gmail.com",
+      link: "duaf3292@gmail.com",
     },
     {
       icon: <FiPhone className="w-6 h-6" />,
       title: "Phone",
-      info: "+1 (123) 456-7890",
-      link: "tel:+11234567890",
+      info: "0329 2256242",
+      link: "tel:0329 2256242",
     },
     {
       icon: <FiMapPin className="w-6 h-6" />,
       title: "Location",
-      info: "New York, USA",
+      info: "Karachi, Pakistan",
       link: "#",
     },
   ];
