@@ -64,20 +64,20 @@ export default function Hero() {
                 </div>
                 
                 {/* Stats */}
-                <div className="mt-6 p-4 bg-surface/50 rounded-xl backdrop-blur-sm border border-border/50">
+                <div className="mt-3 flex justify-between p-3 bg-surface/50 rounded-xl backdrop-blur-sm border border-border/50">
                   <div className="flex items-center justify-around">
-                    <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">50+</div>
+                    <div className="text-center p-4">
+                      <div className="text-1xl font-bold text-primary">50+</div>
                       <div className="text-sm text-text-muted">Projects</div>
                     </div>
                     <div className="h-8 w-px bg-border"></div>
-                    <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">5+</div>
+                    <div className="text-center p-4">
+                      <div className="text-1xl font-bold text-primary">5+</div>
                       <div className="text-sm text-text-muted">Years Exp</div>
                     </div>
                     <div className="h-8 w-px bg-border"></div>
-                    <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">35+</div>
+                    <div className="text-center p-4">
+                      <div className="text-1xl font-bold text-primary">35+</div>
                       <div className="text-sm text-text-muted">Clients</div>
                     </div>
                   </div>
