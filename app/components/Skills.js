@@ -1,29 +1,23 @@
 import { FiCode, FiPenTool, FiSmartphone, FiServer } from "react-icons/fi";
 
 const skills = [
-  {
+ {
     category: "Frontend Development",
     icon: <FiCode className="w-8 h-8" />,
-    items: ["React/Next.js", "Vue.js", "TypeScript", "Tailwind CSS"],
+    items: ["React/Next.js", "Vue.js", "TypeScript", "Tailwind CSS" , "JavaScript", "HTML", "CSS"],
     color: "text-primary",
   },
   {
     category: "UI/UX Design",
     icon: <FiPenTool className="w-8 h-8" />,
-    items: ["Figma", "Prototyping", "Design Systems", "User Research"],
+    items: ["Figma", "Prototyping", "Design Systems", "User Research", "Wireframing" , "Adobe XD" , "prototyping"],
     color: "text-purple-400",
   },
   {
-    category: "Mobile Development",
+    category: "API & Data Handling",
     icon: <FiSmartphone className="w-8 h-8" />,
-    items: ["React Native", "Flutter", "PWA", "App Store Deployment"],
+    items: ["JSON Handling", "Fetch API", "Axios", "REST APIs" , "GraphQL", "WebSockets", "Node.js"],
     color: "text-blue-400",
-  },
-  {
-    category: "Backend & DevOps",
-    icon: <FiServer className="w-8 h-8" />,
-    items: ["Node.js", "PostgreSQL", "Docker", "AWS"],
-    color: "text-green-400",
   },
 ];
 
