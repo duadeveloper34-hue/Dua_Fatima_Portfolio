@@ -37,6 +37,7 @@ export default function Hero() {
               </a>
               <a
                 href="/Dua_Ali_CV_2.pdf"
+                 download="/Dua_Ali_CV_2.pdf"  // یہ لائن شامل کریں
                 className="inline-flex items-center px-6 py-3 rounded-lg border border-border hover:bg-surface transition-colors duration-200 font-medium"
               >
                 <FiDownload className="mr-2 w-5 h-5" />
@@ -64,16 +65,16 @@ export default function Hero() {
                 </div>
                 
                 {/* Stats */}
-                <div className="mt-3 flex justify-between p-3 bg-surface/50 rounded-xl backdrop-blur-sm border border-border/50">
-                  <div className="flex items-center justify-around">
-                    <div className="text-center p-4">
+                <div className="mt-4 flex justify-between p-3 bg-surface/50 rounded-xl backdrop-blur-sm border border-border/50">
+                  <div className="flex items-center justify-items-center w-auto gap-4  ">
+                    <div className="text-center p-4 ">
                       <div className="text-1xl font-bold text-primary">50+</div>
                       <div className="text-sm text-text-muted">Projects</div>
                     </div>
                     <div className="h-8 w-px bg-border"></div>
                     <div className="text-center p-4">
                       <div className="text-1xl font-bold text-primary">5+</div>
-                      <div className="text-sm text-text-muted">Years Exp</div>
+                      <div className="text-sm text-text-muted ">Years Exp</div>
                     </div>
                     <div className="h-8 w-px bg-border"></div>
                     <div className="text-center p-4">
